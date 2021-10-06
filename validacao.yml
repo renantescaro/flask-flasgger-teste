@@ -1,0 +1,15 @@
+Enpoint de consulta de pessoas
+---
+tags:
+  - Awesomeness Language API
+responses:
+  200:
+    description: Lista de pessoas
+    schema:
+      properties:
+        id:
+          type: integer
+          description: identificador unico da pessoa
+        nome:
+          type: string
+          description: nome da pessoa
